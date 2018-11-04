@@ -1,9 +1,9 @@
-<template lang="html">
+<template>
   <img :src="avatarURL">
 </template>
 
 <script>
-import AvataaarMetadata from './AvataaarMetadata.json'
+import AvataaarMetadata from './AvataaarMetadata'
 
 export default {
   props: {
