@@ -1,0 +1,39 @@
+{
+  "name": "vue-avataaar",
+  "version": "0.0.1",
+  "description": "Vue component for using the avataaars library.",
+  "main": "dist/avataaar.umd.js",
+  "module": "dist/avataaar.esm.js",
+  "unpkg": "dist/avataaar.min.js",
+  "browser": {
+    "./sfc": "src/Avataaar.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtouzy/vue-avataaar.git"
+  },
+  "scripts": {
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/avataaar.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/avataaar.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/avataaar.min.js"
+  },
+  "keywords": [
+    "vue",
+    "avataaar",
+    "component"
+  ],
+  "author": "Jérémy TOUZY <jtouzy2@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtouzy/vue-avataaar/issues"
+  },
+  "homepage": "https://github.com/jtouzy/vue-avataaar#readme",
+  "devDependencies": {
+    "rollup": "^0.66.6",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
