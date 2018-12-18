@@ -47,6 +47,12 @@
         "MoustacheMagnum"
       ]
     },
+    "hairColor": {
+      "properties": [
+        "Auburn", "Black", "Blonde", "BlondeGolden", "Brown", "BrownDark",
+        "PastelPink", "Platinum", "Red", "SilverGray"
+      ]
+    },
     "mouthType": {
       "properties": [
         "Concerned", "Default", "Disbelief", "Eating", "Grimace", "Sad",
@@ -85,6 +91,7 @@
       eyeType: String,
       facialHairColor: String,
       facialHairType: String,
+      hairColor: String,
       mouthType: String,
       skinColor: String,
       topType: String
