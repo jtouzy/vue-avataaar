@@ -41,6 +41,12 @@ export default {
       "MoustacheMagnum"
     ]
   },
+  "hairColor": {
+    "properties": [
+      "Auburn", "Black", "Blonde", "BlondeGolden", "Brown", "BrownDark",
+      "PastelPink", "Platinum", "Red", "SilverGray"
+    ]
+  },
   "mouthType": {
     "properties": [
       "Concerned", "Default", "Disbelief", "Eating", "Grimace", "Sad",

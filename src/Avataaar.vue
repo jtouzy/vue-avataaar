@@ -14,6 +14,7 @@ export default {
     eyeType: String,
     facialHairColor: String,
     facialHairType: String,
+    hairColor: String,
     mouthType: String,
     skinColor: String,
     topType: String
