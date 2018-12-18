@@ -103,6 +103,17 @@ You can provide all the available avataaars-options as component properties to c
 - BeardMagestic
 - MoustacheFancy
 - MoustacheMagnum
+#### hairColor
+- Auburn
+- Black
+- Blonde
+- BlondeGolden
+- Brown
+- BrownDark
+- PastelPink
+- Platinum
+- Red
+- SilverGray
 #### mouthType
 - Concerned
 - Default
