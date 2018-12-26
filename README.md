@@ -5,7 +5,7 @@
 This project is a Vue.js component wrapper for the library [avataaars](https://avataaars.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley).
 
 <p align="center">
-<img src="https://avataaars.io/?avatarStyle=Circle&accessoriesType=Prescription02&clotheColor=Red&clotheType=Hoodie&eyeType=Wink&facialHairType=Blank&hairColor=Black&skinColor=Light&topType=ShortHairShortFlat">
+<img src="https://user-images.githubusercontent.com/5709133/50445980-88299a80-0912-11e9-962a-6fd92fd18027.png">
 </p>
 
 ## Installation
