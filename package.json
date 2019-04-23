@@ -1,6 +1,6 @@
 {
   "name": "vue-avataaar",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Vue component for using the avataaars library.",
   "main": "dist/avataaar.umd.js",
   "module": "dist/avataaar.esm.js",

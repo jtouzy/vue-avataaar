@@ -16,7 +16,7 @@ export default {
       "Overall", "ShirtCrewNeck", "ShirtScoopNeck", "ShirtVNeck"
     ]
   },
-  "colorFabric": {
+  "clotheColor": {
     "properties": [
       "Black", "Blue01", "Blue02", "Blue03", "Gray01", "Gray02", "Heather", "PastelBlue", 
       "PastelGreen", "PastelOrange", "PastelRed", "PastelYellow", "Pink", "Red", "White"
@@ -47,7 +47,7 @@ export default {
       "MoustacheMagnum"
     ]
   },
-  "graphic": {
+  "graphicType": {
     "properties": [
       "Bat", "Cumbia", "Deer", "Diamond", "Hola", "Pizza", "Resist", "Selena", 
       "Bear", "SkullOutline", "Skull"

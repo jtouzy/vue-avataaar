@@ -59,7 +59,7 @@ You can provide all the available avataaars-options as component properties to c
 - ShirtCrewNeck
 - ShirtScoopNeck
 - ShirtVNeck
-#### colorFabric
+#### clotheColor
 - Black
 - Blue01
 - Blue02
@@ -119,7 +119,7 @@ You can provide all the available avataaars-options as component properties to c
 - BeardMagestic
 - MoustacheFancy
 - MoustacheMagnum
-#### graphic
+#### graphicType
 - Bat
 - Cumbia
 - Deer
