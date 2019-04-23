@@ -22,7 +22,7 @@
         "Overall", "ShirtCrewNeck", "ShirtScoopNeck", "ShirtVNeck"
       ]
     },
-    "colorFabric": {
+    "clotheColor": {
       "properties": [
         "Black", "Blue01", "Blue02", "Blue03", "Gray01", "Gray02", "Heather", "PastelBlue", 
         "PastelGreen", "PastelOrange", "PastelRed", "PastelYellow", "Pink", "Red", "White"
@@ -53,7 +53,7 @@
         "MoustacheMagnum"
       ]
     },
-    "graphic": {
+    "graphicType": {
       "properties": [
         "Bat", "Cumbia", "Deer", "Diamond", "Hola", "Pizza", "Resist", "Selena", 
         "Bear", "SkullOutline", "Skull"
@@ -99,12 +99,12 @@
       avatarStyle: String,
       accessoriesType: String,
       clotheType: String,
-      colorFabric: String,
+      clotheColor: String,
       eyebrowType: String,
       eyeType: String,
       facialHairColor: String,
       facialHairType: String,
-      graphic: String,
+      graphicType: String,
       hairColor: String,
       mouthType: String,
       skinColor: String,
