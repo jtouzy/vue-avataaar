@@ -29,9 +29,9 @@ export default {
     queryString() {
       let queryString =
         Object.keys(AvataaarMetadata)
-          .filter(prop => this[prop])
+          .filter(prop => this.random? true : this[prop])
           .map(prop => {
-            if(this.random) {
+            if(this.random && prop != "avatarStyle") {
               let rand = Math.floor(Math.random() * AvataaarMetadata[prop].properties.length)
               return `${prop}=${AvataaarMetadata[prop].properties[rand]}`
             } else {
